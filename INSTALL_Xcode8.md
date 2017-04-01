@@ -11,13 +11,13 @@ Since Apple decided not to load 3rd party plugins, we have to make change to it.
    2.1 Open "Keychain Access" (in Applications -> Utilities) and select "login" in the left pane.
    
    2.2 Select Create a Certificate ( in KeyChain Access -> Certificate Assistant )
-       
-       ![Keychaing1](Documents/Images/Keychain1.png)
+   
+    ![Keychaing1](Documents/Images/Keychain1.png)
        
    2.3 Input your name (whatever you like) and select "Code Signing" for Certificate Type.
        Not required but the name is used later in a command line so it could be better to use easily distinguishable name here (I use XcodeSigner here).
        
-       ![Keychaing2](Documents/Images/Keychain2.png)
+    ![Keychaing2](/Documents/Images/Keychain2.png)
        
 
   Now you have a certificate to code sign.
